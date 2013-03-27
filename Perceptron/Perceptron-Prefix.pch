@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'Perceptron' target in the 'Perceptron' project
+//
+
+#define ARC4RANDOM_MAX 0x100000000
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#import "emrNetwork.h"
+#import "emrTransferFuncs.h"
+#import "emrView.h"
+#endif
