@@ -167,7 +167,7 @@
   }
   
   //// Color Declarations
-  NSColor* viewFill = [NSColor colorWithCalibratedHue:weight saturation:0.5 brightness:0.75 alpha:0.75];
+  NSColor* viewFill = [NSColor colorWithCalibratedHue:0 saturation:0 brightness:0 alpha:weight];
   
   //// connection Drawing
   NSBezierPath* connectionPath = [NSBezierPath bezierPath];
